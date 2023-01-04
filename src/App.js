@@ -2,6 +2,7 @@ import React from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import Model from "./components/Ihu";
+import ModelMove from "./components/Ihu-move";
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
       <ambientLight intensity={1.25} />
       <ambientLight intensity={0.1} />
       <directionalLight intensity={0.4} />
-      <Model position={[0.025, -0.9, 0]} />
+      <ModelMove position={[0.025, -0.9, 0]} />
       <OrbitControls />
     </Canvas>
   );
