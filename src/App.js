@@ -1,7 +1,6 @@
 import React from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
-import Model from "./components/Ihu";
 import ModelMove from "./components/Ihu-move";
 import "./App.css";
 
