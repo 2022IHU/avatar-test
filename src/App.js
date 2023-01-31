@@ -9,10 +9,6 @@ function App() {
     <div>
       <div className="App">
         <h1>avatar</h1>
-        <h2>avatar ex1</h2>
-        <h3>avatar ex2</h3>
-        <h4>avatar ex3</h4>
-        <h5>avatar ex4</h5>
       </div>
       <Canvas
         camera={{ position: [2, 0, 12.25], fov: 15 }}
