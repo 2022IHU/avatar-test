@@ -8,7 +8,9 @@ function App() {
   return (
     <div>
       <div className="App">
-        <h1>avatar</h1>
+        <h1>avatar1</h1>
+        <h2>avatar2</h2>
+        <h3>avatar3</h3>
       </div>
       <Canvas
         camera={{ position: [2, 0, 12.25], fov: 15 }}
