@@ -7,9 +7,6 @@ import "./App.css";
 function App() {
   return (
     <div>
-      <div className="App">
-        <h1>avatar1</h1>
-      </div>
       <Canvas
         camera={{ position: [2, 0, 12.25], fov: 15 }}
         style={{
